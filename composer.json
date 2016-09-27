@@ -1,0 +1,16 @@
+{
+    "name": "sheridan/zf-maintenance-mode",
+    "description": "Maintenance Mode module for ZF3",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "zendframework/zend-mvc": "^3.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "zfMaintenanceMode\\": "src/"
+        }
+    }
+}
